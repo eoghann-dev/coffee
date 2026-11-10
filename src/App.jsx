@@ -2,13 +2,13 @@ function App() {
   return (
     <>
       <header>
-        <nav>
+        <nav className="flex flex-col gap-4 p-6 md:flex-row md:items-center md:justify-between">
           <h1>
             <span>Tinatangi</span>
             CAFE
           </h1>
 
-          <ul>
+          <ul className="flex flex-wrap justify-center gap-6">
             <li>
               <a href="">Home</a>
             </li>
@@ -23,7 +23,7 @@ function App() {
             </li>
           </ul>
 
-          <a href="">Visit Now</a>
+          <a className="self-center md:self-auto rounded-full bg-amber-900 px-5 py-2 text-white" href="">Visit Now</a>
         </nav>
       </header>
 
